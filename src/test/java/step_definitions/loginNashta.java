@@ -17,7 +17,6 @@ import java.util.List;
 import static step_definitions.Hooks.webDriver;
 
 public class loginNashta {
-    private static final int MAX_ROWS_TO_CHECK = 1;
     private final JavascriptExecutor js;
     private final WebDriverWait wait;
     private WebDriver webDriver;
