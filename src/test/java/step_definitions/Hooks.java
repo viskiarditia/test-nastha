@@ -29,6 +29,8 @@ public class Hooks {
         WebDriverManager.chromedriver().setup();
         webDriver= new ChromeDriver(options);
         String URL = "https://hris.nashta.co.id/sign-in";
+
+
         webDriver.get(URL);
         webDriver.manage().window().maximize();
     }

@@ -45,7 +45,7 @@ public class loginNashta {
         userName.sendKeys("addiyat.sandi@gmail.com");
         WebElement password = webDriver.findElement(By.xpath("//input[@name='password']"));
         password.sendKeys("Nashta@2023");
-        WebElement clickSignIn = webDriver.findElement(By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedWarning MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedWarning MuiButton-sizeLarge MuiButton-containedSizeLarge  w-full mt-16 muiltr-qnk7s0']"));
+        WebElement clickSignIn = webDriver.findElement(By.cssSelector(".MuiButton-root"));
         clickSignIn.click();
         Thread.sleep(1000);
     }

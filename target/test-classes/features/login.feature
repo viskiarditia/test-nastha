@@ -10,9 +10,3 @@ Feature: Login
     And User Click Add New fill out the form
     Then click Action Bottom For Edit or Delete
 
-
-
-
-
-
-
